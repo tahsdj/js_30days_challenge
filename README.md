@@ -5,6 +5,6 @@
   * know how to use selectorquery and ${xxx} as a variable to get element.
 ```
 vay key = 10
-var audio = document.selectorQuery('audio[data-key="${key}"]')
+var audio = document.querySelector(`audio[data-key="${key}"]`)
   
 ```
